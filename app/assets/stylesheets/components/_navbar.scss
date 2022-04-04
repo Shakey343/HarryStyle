@@ -1,12 +1,63 @@
-.navbar-lewagon {
+.navbar-hstyle {
   justify-content: space-between;
   background: white;
+  // position: fixed;
+  // width: 100%;
+  // top: 0;
+  // left: 0;
+  // z-index: 100;
+  border-bottom: solid 1px $hs-beige;
+  // box-shadow: ??; Instead of border?
+  background-color: $hs-black;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+// .division {
+//   flex: 1;
+// }
+
+.logo {
+  margin-left: 30px;
+  text-decoration: none;
+  color: $hs-beige;
+  font-size: 18px;
+  transition: color 0.5s;
 }
+
+.logo:hover {
+  color: $hs-red;
+}
+
+.navbut {
+  transition: color 1s;
+  text-decoration: none;
+  padding: 0 1vw;
+  color: #FBDBC1;
+  cursor: pointer;
+}
+
+.navbut:hover {
+  color:#BF223C;
+}
+
+.vl {
+  border-right: 2px solid #FBDBC1;
+}
+
+#navbar {
+  cursor: pointer;
+}
+
+// .navbar-hstyle .navbar-collapse {
+//   flex-grow: 0;
+// }
+
+// .navbar-hstyle .navbar-brand img {
+//   width: 40px;
+// }
