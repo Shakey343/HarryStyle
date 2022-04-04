@@ -1,12 +1,11 @@
 .navbar-hstyle {
   justify-content: space-between;
-  background: white;
   // position: fixed;
   // width: 100%;
   // top: 0;
   // left: 0;
   // z-index: 100;
-  border-bottom: solid 1px $hs-beige;
+  border-bottom: solid 2px $hs-beige;
   // box-shadow: ??; Instead of border?
   background-color: $hs-black;
 }
@@ -18,16 +17,12 @@
   margin-right: 30px;
 }
 
-// .division {
-//   flex: 1;
-// }
-
 .logo {
-  margin-left: 30px;
   text-decoration: none;
   color: $hs-beige;
-  font-size: 18px;
   transition: color 0.5s;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 .logo:hover {
@@ -38,7 +33,7 @@
   transition: color 1s;
   text-decoration: none;
   padding: 0 1vw;
-  color: #FBDBC1;
+  color: $hs-beige;
   cursor: pointer;
 }
 
@@ -47,11 +42,7 @@
 }
 
 .vl {
-  border-right: 2px solid #FBDBC1;
-}
-
-#navbar {
-  cursor: pointer;
+  border-right: 2px solid $hs-beige;
 }
 
 // .navbar-hstyle .navbar-collapse {
