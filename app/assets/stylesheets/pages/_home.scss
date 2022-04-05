@@ -1,1 +1,20 @@
 // Specific CSS for your home-page
+.aboutInfo {
+  // padding: 5px 30px;
+  margin: 0 auto;
+  // max-width: 800px;
+  font-size: 18px;
+  display: flex;
+  background-color: #36393A;
+  /*border: #BF223C 40px solid;*/
+}
+
+.harryImg {
+  display: flex;
+  margin: 40px;
+}
+
+.harryImg img{
+  width: auto;
+  height: 40vw;
+}

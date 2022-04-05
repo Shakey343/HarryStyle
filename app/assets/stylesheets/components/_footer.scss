@@ -1,5 +1,10 @@
-.fab {
-  transition: color 1s;
+.footer {
+  background-color: $hs-black;
+  border-top: solid 2px $hs-beige;
+}
+
+.fab, .fas {
+  transition: color 0.4s;
   color: $hs-beige;
   margin: 0 16px;
 }
@@ -18,4 +23,8 @@
 
 .fa-soundcloud:hover {
   color: #FF5500;
+}
+
+.fa-envelope:hover {
+  color: #c0a491;
 }
