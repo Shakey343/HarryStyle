@@ -1,9 +1,10 @@
 .footer {
-  background-color: $hs-black;
-  border-top: solid 2px $hs-red;
+  background-color: $hs-red;
+  border-top: solid 2px $hs-beige;
+  text-shadow: 0 2px 2px rgba(0,0,0,.2);
 }
 
-.fab, .fas {
+.footer .fab, .footer .fas {
   transition: color 0.4s;
   color: $hs-beige;
   margin: 0 16px;

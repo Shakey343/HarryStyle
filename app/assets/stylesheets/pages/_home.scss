@@ -1,6 +1,6 @@
 // Specific CSS for your home-page
 .aboutInfo {
-  // padding: 5px 30px;
+  padding-left: 30px;
   margin: 0 auto;
   // max-width: 800px;
   font-size: 18px;
@@ -12,4 +12,14 @@
 .harryImg img{
   width: auto;
   height: 40vw;
+}
+
+@media (max-width: 768px) {
+  .aboutInfo {
+    padding-left: 0;
+  }
+
+  .harryImg {
+    display: none;
+  }
 }
