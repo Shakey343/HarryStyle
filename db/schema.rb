@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2022_04_08_103557) do
   create_table "projects", force: :cascade do |t|
     t.string "title"
     t.string "description"
-    t.string "image_url"
+    t.string "image_path"
     t.string "soundcloud_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
