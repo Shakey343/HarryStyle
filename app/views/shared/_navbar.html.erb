@@ -2,9 +2,10 @@
   <a href="<%= root_path %>" class="logo mx-4 my-2">Harry Style</a>
   <%# <div class="division"></div> %>
   <div class="navbar-items">
-    <a href="./composer" class="vl navbut">Composer&nbsp;</a>
+    <%# <a href="./composer" class="vl navbut">Composer&nbsp;</a>
     <a href="./arranger" class="vl navbut">Arranger&nbsp;</a>
-    <a href="#bottom" class="vl navbut">About&nbsp;</a>
+    <a href="bottom" class="vl navbut">About&nbsp;</a> %>
+    <%= link_to "About", root_path(anchor: "about"), class: "navbut vl" %>
     <%= link_to "Projects", projects_path, class: "navbut" %>
     <!--a href="./about.html" class="navbut">About</a-->
   </div>
