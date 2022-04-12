@@ -1,13 +1,13 @@
 <h1 class="text-center p-3">Projects</h1>
 <div class="hs-cards">
 <% @projects.each do |project| %>
-  <div class="hs-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)">
+  <div class="hs-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
     <%= project.title %>
   </div>
 <% end %>
 </div>
 <% @projects.each do |project| %>
-<div class="hs-card-info d-none">
+<div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
   <%= project.description.to_s %>
   <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.soundcloud_url %>"></iframe>
 </div>
