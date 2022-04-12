@@ -68,7 +68,7 @@ Project.create(
   title: 'Prelude',
   typeof: 'composition',
   description: '<a href="https://www.lexiclare.com/" target="_blank">Lexi Clare</a> has given me the opportunity to showcase my work at \'Prelude\', a platform to demonstrate upcoming writers and performers, at <a href="https://artstheatrewestend.co.uk/" target="_blank">Above the Arts</a> and <a href="https://www.actorscentre.co.uk/home" target="_blank">Tristan Bates</a>. Featuring several singers and musicians, below is some of the material I showcased.',
-  image_path: 'COMPOSER SHOWCASE MTMC Tristan Bates.png',
+  image_path: 'COMPOSER_SHOWCASE_MTMC_Tristan_Bates.png',
   iframe_url: 'https://www.youtube.com/embed/XWeg3jDC9rI',
   iframe1_url: 'https://www.youtube.com/embed/bGutIomeffc',
   iframe2_url: 'https://www.youtube.com/embed/CDld3sZbgHQ'
@@ -79,7 +79,7 @@ Project.create(
   title: 'Turning Thirty',
   typeof: 'composition',
   description: 'It\'s Adam\'s 30th birthday and he\'s hosting a dinner party for his closest friends. Being the first to turn thirty in his friendship group, there are a lot of expectations, both for the night and for the next stage of his life. However, the evening becomes more and more chaotic whilst Adam tries to put on a good show. With four secret addictions and a rat on the loose, what could go wrong?!',
-  image_path: 'COMPOSER T30.png',
+  image_path: 'COMPOSER_T30.png',
   iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/628325064&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
 )
 puts 'Project created and stored...'
@@ -88,7 +88,7 @@ Project.create(
   title: 'Improv',
   typeof: 'composition',
   description: 'Written by Michael Hartfield and Zach Margolin, Improv is a sitcom centred around an improv class. The writing duo are currently preparing to shoot the pilot episode for when the lockdown is over. I have been commissioned to compose the theme music.',
-  image_path: 'COMPOSER TV Improv Title Temp.png',
+  image_path: 'COMPOSER_TV_Improv_Title_Temp.png',
   iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/815543701&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
 )
 puts 'Project created and stored...'
@@ -97,7 +97,7 @@ Project.create(
   title: 'JFS Songwriting Workshops',
   typeof: 'composition',
   description: 'Since 2018, I have been invited to <a href="https://jfs.brent.sch.uk/" target="_blank">JFS</a> to run song-writing workshops with some of the best and passionate music students in the school. As a result of their work and collective contribution, their school youth choir \'The JFS Singers\' have performed and recorded three new songs to add to their repertoire.',
-  image_path: 'COMPOSER WORKSHOP JFS Main.png',
+  image_path: 'COMPOSER_WORKSHOP_JFS_Main.png',
   iframe_url: 'https://www.youtube.com/embed/o0GQ7uZ5U0o'
 )
 puts 'Project created and stored...'
