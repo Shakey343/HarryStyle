@@ -4,7 +4,10 @@ class CreateProjects < ActiveRecord::Migration[6.1]
       t.string :title
       t.string :description
       t.string :image_path
-      t.string :soundcloud_url
+      t.string :iframe_url
+      t.string :iframe1_url
+      t.string :iframe2_url
+      t.string :iframe3_url
 
       t.timestamps
     end

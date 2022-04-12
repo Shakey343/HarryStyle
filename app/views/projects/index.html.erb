@@ -9,6 +9,6 @@
 <% @projects.each do |project| %>
 <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
   <%= project.description.to_s %>
-  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.soundcloud_url %>"></iframe>
+  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
 </div>
 <% end %>

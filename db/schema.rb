@@ -19,7 +19,10 @@ ActiveRecord::Schema.define(version: 2022_04_08_103557) do
     t.string "title"
     t.string "description"
     t.string "image_path"
-    t.string "soundcloud_url"
+    t.string "iframe_url"
+    t.string "iframe1_url"
+    t.string "iframe2_url"
+    t.string "iframe3_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
