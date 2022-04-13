@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+puts 'Creating Compositions...'
+
 Project.create(
   title: 'Forgive Us Oh Father',
   typeof: 'composition',
@@ -102,45 +104,125 @@ Project.create(
 )
 puts 'Project created and stored...'
 
-# Project.create(
-#   title: '',
-#   type: 'composition',
-#   description: '',
-#   image_path: '',
-#   iframe_url: '',
-#   iframe1_url: '',
-#   iframe2_url: '',
-#   iframe3_url: ''
-# )
-# puts 'Project created and stored...'
+puts 'Creating Arrangments...'
+
+Project.create(
+  title: 'The Ashatones',
+  typeof: 'arrangment',
+  description: '<p>I have been singing with, and arranging for, <a href="https://www.facebook.com/ashatones" target="_blank">The Ashatones</a> for almost seven years. With a repertoire spanning a century, we - <a href="https://twitter.com/ashjacobsMD" target="_blank">Ashley Jacobs</a>, <a href="https://www.spotlight.com/9415-3492-1937" target="_blank">Sam McCagherty</a>, <a href="https://www.linkedin.com/in/alex-weston-60b6a0100/" target="_blank">Alex Weston</a>, and I - sing anything from traditional barbershop music to our own arrangements of current pop songs and have gigged all around the UK.</p>
+  <p>As well as performing on stage, we were recently commisioned by <a href="https://www.spacecity.co.uk/" target="_blank">Spacecity</a> to feature in an advert, for which I composed and arranged the music, for the Alzheimer\'s Society promoting <a href="#bigwin">The Big Win Weekly Lottery</a>. It is broadcasting on UK television, radio and internet until April 2021.</p>
+  <p>I have arranged a number of songs for the group over the years. Currently, we are releasing an Ashatones Advent Calendar throughout December 2020 in time of Christmas!</p>',
+  image_path: 'ARRANGER_Ashatones_Website_Thumbnail.png',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'At The Bishopgate',
+  typeof: 'arrangment',
+  description: '<p><a href="https://www.instagram.com/emilymcdouall/" target="_blank">Emily McDouall</a> and I met at Mountview at the end of 2015, and have worked together on a number of gigs projects since. In March 2019, Emily and I recorded some covers of pop songs and a couple of jazz standards at The Bishopsgate Institute - where I was fortunate enough to play <a href="https://twitter.com/MyraTheSteinway" target="_blank">The Myra Hess</a>.</p>
+  <ul>
+      <li>Bass: <a href="https://www.facebook.com/bencrane123" target="_blank">Benjamin Crane</a></li>
+      <li>Drums: <a href="https://www.instagram.com/nickandersondrums/" target="_blank">Nick Anderson</a></li><br>
+      <li>Sound: <a href="https://www.jackchildsaudio.com/" target="_blank">Jack Childs</a></li>
+      <li>Visuals: <a href="https://www.instagram.com/morrell.photography/" target="_blank">Jonathan Morrell</a></li>
+  </ul>',
+  image_path: 'HOMEPAGE_Harry_Emily_Music.jpeg',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: '20th Annual Chazanut Concert',
+  typeof: 'arrangment',
+  description: '<p>I had the priviledge of orchestrating for two tenors, male choir and orchestra for an the 20th Annual Chazanut Concert in November 2019. The high profile event was held in Hampstead Garden Suburb Synagogue where MP for Finchley & Golders Green Mike Freer, Israeli-UK Ambassador Mark Regev and the Chief Rabbi Ephraim Mervis were in attendance, amongst a full capacity audience.</p>
+  <h4>Performers:</h4>
+  <ul><a href="https://www.iamshulem.com/" target="_blank">Shulem Lemmer</a>, Tenor Chazan
+      <a href="https://hgss.org.uk/portfolio-item/chazan-avromi-freilich/" target="_blank">Avromi Freilich</a>, Tenor Chazan
+      <br>
+      <a href="http://www.chazaneliotalderman.co.uk/id10.html" target="_blank">Rinah Ensemble</a>, Choir
+      <a href="http://www.miriamkramer.com/" target="_blank">Miriam Kramer Ensemble</a>, Orchestra
+      <br>
+      <a href="http://www.chazaneliotalderman.co.uk/" target="_balnk">Eliot Alderman</a>, Conductor
+  </ul>',
+  image_path: 'ARRANGER_HGSS_Poster.jpg',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'Choral Arranging',
+  typeof: 'arrangment',
+  description: '<p>Having sung in various choirs, I have had the pleasure of arranging music for them too. I joined <a href="http://www.facebook.com/minimsingers" target="_blank">Minim</a> as a chorister in 2016 with whom I have performed a number of concerts and services. Most recently, I was asked to arrange a choral setting of the Hatikvah - the Israeli National Anthem - for a video commemorating the 72nd Anniversary of Israel\'s independence created by <a href="https://youtu.be/55oKCXxTqxU" target="_blank">The Jewish People Arose</a>.</p>',
+  image_path: '',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'Imogen Halsey',
+  typeof: 'arrangment',
+  description: '<p><a href="https://imogenhalsey.com/" target="_blank">Imogen Halsey</a> and I have been close friends for years - we met in halls at university and have never stopped making music and theatre together since. In recent years, we have covered a variety of well-known songs in our own way. We are available for functions and live performances around the UK.</p>',
+  image_path: '',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'Passing',
+  typeof: 'arrangment',
+  description: '<p>Written by <a href="https://twitter.com/IndigoGriffiths?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Indigo Griffiths</a> and directed by <a href="https://www.gemmaaked-priestley.com/" target="_blank">Gemma Aked-Priestley</a>, <a href="https://www.gemmaaked-priestley.com/passing/" target="_blank">Passing</a> - a new play that exposes the controversial practice of “racial passing” - was performed at Theatre Royal Haymarket in Autumn of 2018. Gemma approached me to arrange pop songs in different jazz styles depending on the tone of each scene. On the day of performance, the music was sung by <a href="https://www.spotlight.com/6052-6756-3004?fbclid=IwAR2qBUtUrnpLudBkHNWpNJTI_oYehtKT9aFGWMcPU03bFTn92sWK0SxxKmc" target="_blank">Izzy Jones</a> and accompanied by <a href="https://www.musicbyartemis.net/" target="_blank">Artemis Reed.</a></p>',
+  image_path: '',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'Songs from the Shows',
+  typeof: 'arrangment',
+  description: '<p><a href="https://thepeoplesorchestra.com/" target="_blank">The People\'s Orchestra</a> held a concert of musical theatre repertoire in West Bromwich town hall in April 2017. The orchestra, conducted by Dan Watson, played a number of songs, including my arrangement of \'Edelweiss\' from Rogers & Hammerstein\'s <i>The Sound of Music</i>.</p>',
+  image_path: '',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'The Show Shanties',
+  typeof: 'arrangment',
+  description: '<p>The Show Shanties  -  an original idea conceived in the summer of 2020, is a working title from the creators who have been inspired by their love for Musical Theatre and the iconic Shanty group The Fisherman\'s Friends.<br> A planned workshop for early 2021 had been postponed due to the current pandemic and government guidelines. However, given the recent boom across the world and the love and affection being show for shanties, we felt it was the right time to fast track some of our work and share with you our hybrid celebration of Musical Theatre & Shanty Songs!<br> Produced by <a href="https://www.facebook.com/jptalentandevents" target="_blank">Jo Parsons</a>, I am co-arranger with <a href="https://twitter.com/ashjacobsMD" target="_blank">Ashley Jacobs</a>. The debut shanty of <i>\'The Ballad of Sweeney Todd\'</i> took the internet by storm. With our first song out on social media, there\'s more to come from The Show Shanties in the near future.</p>',
+  image_path: '',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
 
 # Project.create(
 #   title: '',
-#   type: 'composition',
-#   description: '',
-#   image_path: '',
-#   iframe_url: '',
-#   iframe1_url: '',
-#   iframe2_url: '',
-#   iframe3_url: ''
-# )
-# puts 'Project created and stored...'
-
-# Project.create(
-#   title: '',
-#   type: 'composition',
-#   description: '',
-#   image_path: '',
-#   iframe_url: '',
-#   iframe1_url: '',
-#   iframe2_url: '',
-#   iframe3_url: ''
-# )
-# puts 'Project created and stored...'
-
-# Project.create(
-#   title: '',
-#   type: 'composition',
+#   typeof: 'arrangment',
 #   description: '',
 #   image_path: '',
 #   iframe_url: '',
