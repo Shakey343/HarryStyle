@@ -1,13 +1,13 @@
 .hs-cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin: 16px;
-  &:hover .hs-card:not(:hover) {
-    filter: grayscale(100%);
-
+  // filter: grayscale(100%);
+  &:hover .hs-card:hover {
+    filter: none;
     &::after {
-      background-color: rgba(#000, 0.5);
+      background-color: rgba(#000, 0.2);
     }
   }
 }
@@ -28,7 +28,9 @@
   position: relative;
   cursor: pointer;
   transition: .3s;
-
+  margin: 0px 8px 8px;
+  padding: 8px;
+  min-width: 350px;
   &::after {
     content: '';
     position: absolute;
@@ -48,36 +50,36 @@
 }
 
 // Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
-  .hs-cards {
-    grid-template-columns: 1fr;
-  }
-}
+// @media (min-width: 100px) and (max-width: 575px) {
+//   .hs-cards {
+//     grid-template-columns: 1fr;
+//   }
+// }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .hs-cards {
-    grid-template-columns: 1fr;
-  }
-}
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   .hs-cards {
+//     grid-template-columns: 1fr;
+//   }
+// }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .hs-cards {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   .hs-cards {
+//     grid-template-columns: repeat(3, 1fr);
+//   }
+// }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .hs-cards {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//   .hs-cards {
+//     grid-template-columns: repeat(4, 1fr);
+//   }
+// }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .hs-cards {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+//   .hs-cards {
+//     grid-template-columns: repeat(4, 1fr);
+//   }
+// }
