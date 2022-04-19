@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-puts 'Creating Compositions...'
+puts 'Creating 10 Compositions!'
 
 Project.create(
   title: 'Forgive Us Oh Father',
@@ -104,7 +104,7 @@ Project.create(
 )
 puts 'Project created and stored...'
 
-puts 'Creating Arrangments...'
+puts 'Creating 8 Arrangments!'
 
 Project.create(
   title: 'The Ashatones',
@@ -219,15 +219,128 @@ Project.create(
 )
 puts 'Project created and stored...'
 
+puts 'Creating 4 MD Shows!'
 
-# Project.create(
-#   title: '',
-#   typeof: 'arrangment',
-#   description: '',
-#   image_path: '',
-#   iframe_url: '',
-#   iframe1_url: '',
-#   iframe2_url: '',
-#   iframe3_url: ''
-# )
-# puts 'Project created and stored...'
+Project.create(
+  title: 'The Crooked Spire',
+  typeof: 'md',
+  description: '<p>In 1360, a spire is being built on Chesterfield church. John Carpenter makes friends with a boy, Walter, and his older sister, Katherine. One morning, John finds the body of the master-builder; stabbed to death. He suspects it is something to do with the shoddy workmanship.When the only likely murderer is found dead, John becomes the main suspect. Walter goes missing and Katherins asks John to help find him. Has Walter found the murderer, or has the murderer found him?</p>
+  <br>
+  <p>Despite Covid-19, <a href="https://www.ashgateheritagearts.co.uk/crooked-spire.html" target="_blank">The Crooked Spire</a> has been able to virtually produce recorded performances to showcase online. I was asked by my fellow drama school student and friend, <a href="https://www.ashgateheritagearts.co.uk/" target="_blank">Martin Coslett</a>, to musically direct and arrange music for the show in the heart of the first lockdown. The show was broadcast at <a href="http://buxtonfestivalfringe.blogspot.com/2020/07/the-crooked-spire-medieval-murder.html" target="_blank">The Buxton Fringe</a> (virutally) in the summer, and the second part of Act I (with and without BSL-signing and a Q&A session) was broadcast on YouTube from 9th-10th December. To watch, please click on the following hyperlinks:</p>
+  <br>
+  <a href="https://www.youtube.com/watch?v=0baSThYBCfw" target="_blank">The Crooked Spire (Act I, Part II)</a> <!-- VIDEO to be added? -->
+  <br>
+  <a href="https://www.youtube.com/watch?v=pOzhsjom7EM&ab_channel=AshgateHeritageArts" target="_blank">The Crooked Spire (Act I, Part II) + BSL-signing</a>',
+  image_path: '',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'Godspell',
+  typeof: 'md',
+  description: '<p>It has been such a great pleasure rehearsing with <a href="https://www.centrestage.london/" target="_blank">Centre Stage</a> over the last five months on their production of <a href="https://www.centrestage.london/godspell" target="_blank">Godspell</a>. This is my first Centre Stage show and, after all the fun we have had in rehearsals and the inspiring enthusiasm from the cast and crew, I cannot wait to get back to rehearsing and putting the show on in the Bridewell Theatre when lockdown is over.</p>',
+  image_path: '',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'Pattie Shop Diaries',
+  typeof: 'md',
+  description: '<p><a href="https://biggerthanme1.wixsite.com/biggerthanme/pattie-shop-diaries-2" target="_blank">Pattie Shop Diaries</a> - the story of an Afro-Caribbean / British family living above, and running, a food outlet in Brixton, South London, in 2012 - is a new musical written by singer-songwriter <a href="https://biggerthanme1.wixsite.com/biggerthanme" target="_blank">Mike Scott-Harding</a>. I was introduced to Mike and director <a href="http://www.onurorkut.com/" target="_blank">Onur Orkut</a> by one of my mentors - <a href="https://robhartmann.com/Rob_Hartmann/Home.html" target="_blank">Rob Hartmann</a> - when working on a new writing showcase held at The Other Palace in 2017.</p>
+  <br>
+  <p>The piece was then showcased at BEAM 2018 and then taken back to The Other Palace as a full show, as well as Hackney Empire 2, in April and May later that year. I am so glad to have worked with such an inspiring and talented bunch of people; we put on a well-received piece of theatre and made some life-long friends in the theatre industry.</p>',
+  image_path: 'MD_Pattie_Shop_Diaries.png',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'Community Choir',
+  typeof: 'md',
+  description: '<p>Since leaving drama school, I have always been active as an MD for a number of community choirs over the years.</p>
+  <br>
+  <p>Since 2018, I have been working with members of the New North London Synagogue community to put on musical theatre concerts. <a href="https://rivkagottlieb.com/" target="_blank">Rivka Gottlieb</a> - harpist, music therapist and events coordinator of the synagogue - approached me to work together that would soon become a lovely tradition in the community. Coming up with our own themes and programmes, we have produced some wonderful and memorable experiences for everyone involved and everyone in the audience, with performers from the age of 5 to 75.</p>
+  <br>
+  <p>In 2017, I led the Woodside Park Synagogue Choir with chazan Aaron Isaac during the most important festivals of the Jewish calendar, The High Holidays. Completely rearranging the service repertoire for baritone solo, the choir sang the services beautifully throughout the period and was roaring success.</p>
+  <br>
+  <p>I was also the musical director of the amateur choir <a href="http://a-chord.uk/" target="_blank">A-Chord</a> from 2017-2019, performing in old age homes every season. The choir have various musical theatre and pop songs up their sleeves and are still going strong today. If you\'re interested in joining, you can contact Laura Gerlis by email on laura@a-chord.uk.</p>',
+  image_path: 'MD_NNLS_February_2020.jpg',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+puts 'Creating 5 Performances!'
+
+Project.create(
+  title: 'The Trix Party Band',
+  typeof: 'performance',
+  description: '<p>I had my first gig with <a href="https://www.trixentertainment.com/" target="_blank">The Trix Party Band</a> - led by <a href="https://www.tylerrixofficial.com/" target="_blank">Tyler Rix</a> - in 2019 at the Moxy Hotel and had a right laugh. Gigging around the country since, we are booked to perform in Oslo at the end of the year and more.</p>',
+  image_path: '',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'Ah Men Singers',
+  typeof: 'performance',
+  description: '<p>I have been singing with these guys for years now. We have done countless functions across the UK, as well as in Israel and Italy. If you are looking to add that extra pizazz to your event for some tailored a cappella, check out the <a href="http://www.ahmen.co.uk/" target="_blank">Ah Men Singers</a> online and get in touch quickly - we\'re booked out far in advance!</p>',
+  image_path: '',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'The Three of Us',
+  typeof: 'performance',
+  description: '<p>Having done music together with <a href="https://imogenhalsey.com/" target="_balnk">Imy Halsey</a> and <a href="https://twitter.com/ashjacobsMD" target="_blank">Ashley Jacobs</a> in so many ways since university, it was about time we started a little trio of our own. With our love for harmonies, we got together recreate to some of our favourite songs.</p>',
+  image_path: '',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'Hannah Elkins',
+  typeof: 'performance',
+  description: '<p>I met <a href="https://www.hannahelkins.com/" target="_blank">Hannah Elkins</a> when we did our first show together at university and have been close friends ever since. As her singer-songwriter career is lifting off, I have been playing in her band where we recently performed at The Finsbury, and we have gigs lined up at other London venues including The Ned. Check her out - she\'s got an absolute banging voice and has some great original songs under her belt.</p>',
+  image_path: 'PERFORMER_Hannah_Elkins_Main.jpg',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
+
+Project.create(
+  title: 'Pianist',
+  typeof: 'performance',
+  description: '<p>I am a regular gigging pianist working all over the UK in many different contexts - from theatre to jazz functions, and concerts to religious serivces. I most recently depped as a Keys II player on the <a href="http://www.powtheatre.co.uk/" target="_blank">Pint of Wine</a> production of <a href="http://www.powtheatre.co.uk/show/queen-of-the-mist" target="_blank">Queen of the Mist</a> in the Charing Cross Theatre. I was also the pianist for cabaret show Fiona Jane Weston & Friends for two years, for which I accompanied an array of musical theatre performers and writers including Liza Pulman, Gary Bland and Darron Clark.</p>',
+  image_path: 'PERFORMER-At-The-Piano.jpg',
+  iframe_url: '',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
+)
+puts 'Project created and stored...'
