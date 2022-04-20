@@ -12,6 +12,10 @@
   }
 }
 
+.cards-body {
+  background: $hs-black;
+}
+
 .hs-card {
   background-size: cover;
   background-position: center;
@@ -28,7 +32,7 @@
   position: relative;
   cursor: pointer;
   transition: .3s;
-  margin: 0px 8px 8px;
+  margin: 16px 8px;
   padding: 8px;
   min-width: 300px;
   &::after {
