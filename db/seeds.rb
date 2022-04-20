@@ -130,7 +130,7 @@ Project.create(
       <li>Sound: <a href="https://www.jackchildsaudio.com/" target="_blank">Jack Childs</a></li>
       <li>Visuals: <a href="https://www.instagram.com/morrell.photography/" target="_blank">Jonathan Morrell</a></li>
   </ul>',
-  image_path: 'HOMEPAGE_Harry_Emily_Music.jpeg',
+  image_path: 'HOMEPAGE_Harry_Emily_Music.jpg',
   iframe_url: '',
   iframe1_url: '',
   iframe2_url: '',
