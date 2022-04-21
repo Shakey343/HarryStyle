@@ -3,80 +3,192 @@
   <div class="typeof-title mt-5">
     <h3>Compositions</h3>
   </div>
-  <div class="hs-cards">
-  <% @projects.each do |project| %>
-    <% if project.typeof == 'composition' %>
-    <div class="hs-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
-      <h5><%= project.title %></h5>
-    </div>
-    <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
-      <div class="card-body">
-        <p><%= project.description %></p>
-        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
-      </div>
-    </div>
+
+  <div class="hs-cards-1">
+    <% @projects.each do |project| %>
+      <% if project.typeof == 'composition' %>
+        <div class="hs-card-1" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+        </div>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
+
+  <div class="project-info">
+  <div class="container">
+    <% @projects.each do |project| %>
+      <% if project.typeof == 'composition' %>
+        <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
+        <h3><%= project.title %></h3>
+          <div class="card-body">
+            <p><%= project.description %></p>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
   </div>
 
   <div class="typeof-title">
-    <h3>Arrangments</h3>
+    <h3>Arranger</h3>
   </div>
-  <div class="hs-cards">
-  <% @projects.each do |project| %>
-    <% if project.typeof == 'arrangment' %>
-    <div class="hs-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
-      <h5><%= project.title %></h5>
-    </div>
-    <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
-      <div class="card-body">
-        <p><%= project.description %></p>
-        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
-      </div>
-    </div>
+
+  <div class="hs-cards-1">
+    <% @projects.each do |project| %>
+      <% if project.typeof == 'arrangment' %>
+        <div class="hs-card-1" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+        </div>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
+
+  <div class="project-info">
+  <div class="container">
+    <% @projects.each do |project| %>
+      <% if project.typeof == 'arrangment' %>
+        <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
+        <h3><%= project.title %></h3>
+          <div class="card-body">
+            <p><%= project.description %></p>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
   </div>
 
   <div class="typeof-title">
     <h3>Musical Director</h3>
   </div>
-  <div class="hs-cards">
-  <% @projects.each do |project| %>
-    <% if project.typeof == 'md' %>
-    <div class="hs-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
-      <h5><%= project.title %></h5>
-    </div>
-    <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
-      <div class="card-body">
-        <p><%= project.description %></p>
-        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
-      </div>
-    </div>
+
+  <div class="hs-cards-2">
+    <% @projects.each do |project| %>
+      <% if project.typeof == 'md' %>
+        <div class="hs-card-1" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+        </div>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
+
+  <div class="project-info">
+  <div class="container">
+    <% @projects.each do |project| %>
+      <% if project.typeof == 'md' %>
+        <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
+        <h3><%= project.title %></h3>
+          <div class="card-body">
+            <p><%= project.description %></p>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
   </div>
 
   <div class="typeof-title">
     <h3>Performer</h3>
   </div>
-  <div class="hs-cards">
-  <% @projects.each do |project| %>
-    <% if project.typeof == 'performance' %>
-    <div class="hs-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
-      <h5><%= project.title %></h5>
-    </div>
-    <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
-      <div class="card-body">
-        <p><%= project.description %></p>
-        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
-      </div>
-    </div>
+
+  <div class="hs-cards-2">
+    <% @projects.each do |project| %>
+      <% if project.typeof == 'performance' %>
+        <div class="hs-card-1" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+        </div>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
+
+  <div class="project-info">
+  <div class="container">
+    <% @projects.each do |project| %>
+      <% if project.typeof == 'performance' %>
+        <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
+        <h3><%= project.title %></h3>
+          <div class="card-body">
+            <p><%= project.description %></p>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
   </div>
 </div>
 
+<!--div class="hs-cards">
+  <% @projects.each do |project| %>
+    <% if project.typeof == 'composition' %>
+      <div class="hs-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+        <h5><%= project.title %></h5>
+      </div>
+      <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
+        <div class="card-body">
+          <p><%= project.description %></p>
+          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+
+<div class="typeof-title">
+  <h3>Arrangments</h3>
+</div>
+<div class="hs-cards">
+<% @projects.each do |project| %>
+  <% if project.typeof == 'arrangment' %>
+  <div class="hs-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+    <h5><%= project.title %></h5>
+  </div>
+  <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
+    <div class="card-body">
+      <p><%= project.description %></p>
+      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+    </div>
+  </div>
+  <% end %>
+<% end %>
+</div>
+
+<div class="typeof-title">
+  <h3>Musical Director</h3>
+</div>
+<div class="hs-cards">
+<% @projects.each do |project| %>
+  <% if project.typeof == 'md' %>
+  <div class="hs-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+    <h5><%= project.title %></h5>
+  </div>
+  <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
+    <div class="card-body">
+      <p><%= project.description %></p>
+      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+    </div>
+  </div>
+  <% end %>
+<% end %>
+</div>
+
+<div class="typeof-title">
+  <h3>Performer</h3>
+</div>
+<div class="hs-cards">
+<% @projects.each do |project| %>
+  <% if project.typeof == 'performance' %>
+  <div class="hs-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-bs-toggle="collapse" data-bs-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+    <h5><%= project.title %></h5>
+  </div>
+  <div class="hs-card-info collapse" id="collapseExample-<%= project.id %>">
+    <div class="card-body">
+      <p><%= project.description %></p>
+      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+    </div>
+  </div>
+  <% end %>
+<% end %>
+</div-->
 
 <!--List of links:
 'Forgive Us, Oh Father!'

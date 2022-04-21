@@ -1,0 +1,84 @@
+.hs-cards-1 {
+  display: flex;
+  margin: 40px;
+}
+
+.hs-cards-2 {
+  display: flex;
+  margin: 40px 88px;
+}
+
+.hs-card-1 {
+  position: relative;
+  // display: block;
+  flex: 1 1 0px;
+  transition: transform 500ms;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.hs-cards-1:focus-within .hs-card-1,
+.hs-cards-1:hover .hs-card-1 {
+  transform: translateX(-25%);
+}
+
+.hs-cards-2:focus-within .hs-card-1,
+.hs-cards-2:hover .hs-card-1 {
+  transform: translateX(-25%);
+}
+
+.hs-card-1:focus ~ .hs-card-1,
+.hs-card-1:hover ~ .hs-card-1 {
+  transform: translateX(25%);
+}
+
+.hs-card-2:focus ~ .hs-card-1,
+.hs-card-2:hover ~ .hs-card-1 {
+  transform: translateX(25%);
+}
+
+.hs-cards-1 .hs-card-1:focus,
+.hs-cards-1 .hs-card-1:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+.hs-cards-2 .hs-card-1:focus,
+.hs-cards-2 .hs-card-1:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+// body {
+//   overflow: hidden;
+// }
+
+.hs-card-1 img {
+  display: block;
+  max-width: 100%;
+}
+
+.cards-body {
+  background: $hs-black;
+}
+
+.typeof-title {
+  margin-left: 120px;
+  margin-top: 80px;
+}
+
+.typeof-title-1 {
+  margin-left: 120px;
+  margin-top: 80px;
+}
+
+.project-info {
+  background-color: $hs-red;
+  box-shadow: inset 0px 7px 6px -8px $hs-black, inset 0px -7px 6px -8px $hs-black;
+}
+
+.hs-card-info {
+  padding: 40px;
+}
