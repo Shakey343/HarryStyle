@@ -1,10 +1,10 @@
 .carousel-img {
   display: block;
   width: 100%;
-  object-position: center;
 }
 
 .carousel-item {
-  height: 300px;
+  height: 400px;
+  object-position: bottom;
   object-fit: cover;
 }
