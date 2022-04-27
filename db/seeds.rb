@@ -61,7 +61,7 @@ Project.create(
   title: 'Prelude',
   typeof: 'composition',
   description: '<a href="https://www.lexiclare.com/" target="_blank">Lexi Clare</a> has given me the opportunity to showcase my work at \'Prelude\', a platform to demonstrate upcoming writers and performers, at <a href="https://artstheatrewestend.co.uk/" target="_blank">Above the Arts</a> and <a href="https://www.actorscentre.co.uk/home" target="_blank">Tristan Bates</a>. Featuring several singers and musicians, below is some of the material I showcased.',
-  image_path: 'COMPOSER_SHOWCASE_MTMC_Tristan_Bates.jpg',
+  image_path: 'prelude.jpg',
   iframe_url: 'https://www.youtube.com/embed/XWeg3jDC9rI',
   iframe1_url: 'https://www.youtube.com/embed/bGutIomeffc',
   iframe2_url: 'https://www.youtube.com/embed/CDld3sZbgHQ'
@@ -292,8 +292,8 @@ Project.create(
   title: 'Pianist',
   typeof: 'performance',
   description: '<p>I am a regular gigging pianist working all over the UK in many different contexts - from theatre to jazz functions, and concerts to religious serivces. I most recently depped as a Keys II player on the <a href="http://www.powtheatre.co.uk/" target="_blank">Pint of Wine</a> production of <a href="http://www.powtheatre.co.uk/show/queen-of-the-mist" target="_blank">Queen of the Mist</a> in the Charing Cross Theatre. I was also the pianist for cabaret show Fiona Jane Weston & Friends for two years, for which I accompanied an array of musical theatre performers and writers including Liza Pulman, Gary Bland and Darron Clark.</p>',
-  image_path: 'PERFORMER-At-The-Piano.jpg',
-  iframe_url: 'at_the_piano.jpg',
+  image_path: 'at_the_piano.jpg',
+  iframe_url: '',
   iframe1_url: '',
   iframe2_url: '',
   iframe3_url: ''
