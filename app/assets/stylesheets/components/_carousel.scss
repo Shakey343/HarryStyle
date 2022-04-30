@@ -4,7 +4,11 @@
 }
 
 .carousel-item {
-  height: 400px;
-  object-position: bottom;
+  height: 450px;
+}
+
+.carousel-item-1 {
+  // object-position: bottom;
   object-fit: cover;
+  object-position: center;
 }
