@@ -51,18 +51,9 @@
   z-index: 1;
 }
 
-// body {
-//   overflow: hidden;
-// }
-
 .hs-card-1 img {
   display: block;
   max-width: 100%;
-}
-
-.cards-body {
-  background: $hs-black;
-  padding-bottom: 40px;
 }
 
 .typeof-title {
@@ -77,4 +68,9 @@
 
 .hs-card-info {
   padding: 40px;
+}
+
+.cards-body {
+  background: $hs-black;
+  padding-bottom: 40px;
 }

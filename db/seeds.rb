@@ -104,10 +104,10 @@ Project.create(
   As well as performing on stage, we were recently commisioned by Spacecity to feature in an advert, for which I composed and arranged the music, for the Alzheimer\'s Society promoting The Big Win Weekly Lottery. It is broadcasting on UK television, radio and internet until April 2021.
   I have arranged a number of songs for the group over the years. Currently, we are releasing an Ashatones Advent Calendar throughout December 2020 in time of Christmas!',
   image_path: 'ashatones.jpg',
-  iframe_url: '',
-  iframe1_url: '',
-  iframe2_url: '',
-  iframe3_url: ''
+  iframe_url: 'https://www.youtube.com/embed/57y-5oHIp8Y',
+  iframe1_url: 'https://youtube.com/embed/Yta8P1z_nr8',
+  iframe2_url: 'https://youtube.com/embed/z8V6tVuSDHk',
+  iframe3_url: 'https://youtube.com/embed/Pj-MzZHtQ7c'
 )
 puts 'Project created and stored...'
 
@@ -122,11 +122,12 @@ Project.create(
   Visuals: Jonathan Morrell
   ',
   image_path: 'harry_emily_music.jpg',
-  iframe_url: '',
-  iframe1_url: '',
-  iframe2_url: '',
-  iframe3_url: ''
+  iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1050499069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+  iframe1_url: 'https://youtube.com/embed/4oJDKUjRiwE',
+  iframe2_url: 'https://youtube.com/embed/fOO2r57FPbk',
+  iframe3_url: 'https://youtube.com/embed/p1SxofqVW5g'
 )
+
 puts 'Project created and stored...'
 
 Project.create(
@@ -141,7 +142,7 @@ Project.create(
     Eliot Alderman, Conductor
   ',
   image_path: 'hgss_poster.jpg',
-  iframe_url: '',
+  iframe_url: 'https://youtube.com/embed/IaJ1Dki0Mw8',
   iframe1_url: '',
   iframe2_url: '',
   iframe3_url: ''
@@ -153,7 +154,7 @@ Project.create(
   typeof: 'arrangment',
   description: 'The People\'s Orchestra held a concert of musical theatre repertoire in West Bromwich town hall in April 2017. The orchestra, conducted by Dan Watson, played a number of songs, including my arrangement of \'Edelweiss\' from Rogers & Hammerstein\'s The Sound of Music.',
   image_path: 'songs_from_the_shows.jpg',
-  iframe_url: '',
+  iframe_url: 'https://youtube.com/embed/VmwUqvzj_lY',
   iframe1_url: '',
   iframe2_url: '',
   iframe3_url: ''
@@ -165,9 +166,9 @@ Project.create(
   typeof: 'arrangment',
   description: 'The Show Shanties  -  an original idea conceived in the summer of 2020, is a working title from the creators who have been inspired by their love for Musical Theatre and the iconic Shanty group The Fisherman\'s Friends. A planned workshop for early 2021 had been postponed due to the current pandemic and government guidelines. However, given the recent boom across the world and the love and affection being show for shanties, we felt it was the right time to fast track some of our work and share with you our hybrid celebration of Musical Theatre & Shanty Songs! Produced by Jo Parsons, I am co-arranger with Ashley Jacobs. The debut shanty of \'The Ballad of Sweeney Todd\' took the internet by storm. With our first song out on social media, there\'s more to come from The Show Shanties in the near future.',
   image_path: 'the_show_shanties.jpg',
-  iframe_url: '',
-  iframe1_url: '',
-  iframe2_url: '',
+  iframe_url: 'https://youtube.com/embed/w6c9yqnvHbI',
+  iframe1_url: 'https://www.youtube.com/embed/AN-kL7iQBXs',
+  iframe2_url: 'https://www.youtube.com/embed/0Zim8-2M7Jk',
   iframe3_url: ''
 )
 puts 'Project created and stored...'
@@ -181,8 +182,8 @@ Project.create(
 
   Despite Covid-19, The Crooked Spire has been able to virtually produce recorded performances to showcase online. I was asked by my fellow drama school student and friend, Martin Coslett, to musically direct and arrange music for the show in the heart of the first lockdown. The show was broadcast at The Buxton Fringe (virutally) in the summer, and the second part of Act I (with and without BSL-signing and a Q&A session) was broadcast on YouTube from 9th-10th December.',
   image_path: 'the_crooked_spire.jpg',
-  iframe_url: 'https://www.youtube.com/watch?v=0baSThYBCfw',
-  iframe1_url: 'https://www.youtube.com/watch?v=pOzhsjom7EM&ab_channel=AshgateHeritageArts',
+  iframe_url: 'https://www.youtube.com/embed/0baSThYBCfw',
+  iframe1_url: 'https://www.youtube.com/embed/pOzhsjom7EM&ab_channel=AshgateHeritageArts',
   iframe2_url: '',
   iframe3_url: ''
 )
@@ -207,8 +208,8 @@ Project.create(
 
   The piece was then showcased at BEAM 2018 and then taken back to The Other Palace as a full show, as well as Hackney Empire 2, in April and May later that year. I am so glad to have worked with such an inspiring and talented bunch of people; we put on a well-received piece of theatre and made some life-long friends in the theatre industry.',
   image_path: 'pattie_shop_diaries.jpg',
-  iframe_url: '',
-  iframe1_url: '',
+  iframe_url: 'https://youtube.com/embed/YbihKoZf8A0',
+  iframe1_url: 'https://youtube.com/embed/VKHGFQnXpoc',
   iframe2_url: '',
   iframe3_url: ''
 )
@@ -239,7 +240,7 @@ Project.create(
   typeof: 'performance',
   description: 'I had my first gig with The Trix Party Band - led by Tyler Rix - in 2019 at the Moxy Hotel and had a right laugh. Gigging around the country since, we are booked to perform in Oslo at the end of the year and more.',
   image_path: 'trix_party_band.jpg',
-  iframe_url: '',
+  iframe_url: 'https://youtube.com/embed/BZTDJcW6P3w',
   iframe1_url: '',
   iframe2_url: '',
   iframe3_url: ''
@@ -251,7 +252,7 @@ Project.create(
   typeof: 'performance',
   description: 'I have been singing with these guys for years now. We have done countless functions across the UK, as well as in Israel and Italy. If you are looking to add that extra pizazz to your event for some tailored a cappella, check out the Ah Men Singers online and get in touch quickly - we\'re booked out far in advance!',
   image_path: 'ahmen.jpg',
-  iframe_url: '',
+  iframe_url: 'https://youtube.com/embed/QLESF5gR7io',
   iframe1_url: '',
   iframe2_url: '',
   iframe3_url: ''
@@ -263,7 +264,7 @@ Project.create(
   typeof: 'performance',
   description: 'Having done music together with Imy Halsey and Ashley Jacobs in so many ways since university, it was about time we started a little trio of our own. With our love for harmonies, we got together recreate to some of our favourite songs.',
   image_path: 'three_of_us.jpg',
-  iframe_url: '',
+  iframe_url: 'https://youtube.com/embed/5cGGhKI1t2Y',
   iframe1_url: '',
   iframe2_url: '',
   iframe3_url: ''
@@ -275,7 +276,7 @@ Project.create(
   typeof: 'performance',
   description: 'I met Hannah Elkins when we did our first show together at university and have been close friends ever since. As her singer-songwriter career is lifting off, I have been playing in her band where we recently performed at The Finsbury, and we have gigs lined up at other London venues including The Ned. Check her out - she\'s got an absolute banging voice and has some great original songs under her belt.',
   image_path: 'hannah_elkins.jpg',
-  iframe_url: '',
+  iframe_url: 'https://youtube.com/embed/j4-4O8d-k6I',
   iframe1_url: '',
   iframe2_url: '',
   iframe3_url: ''
