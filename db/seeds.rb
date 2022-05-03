@@ -13,7 +13,10 @@ Project.create(
   typeof: 'composition',
   description: 'To his surprise, a lazy but compassionate priest ends up in purgatory. As father Stephen-Peter recalls the confessions he has taken on earth, the archangels must decide whether he belongs in heaven or hell. The advice Stephen-Peter gave to his parishioners on earth led to hilarious situations with grave consequences. Are good intentions enough to save his soul?',
   image_path: 'fuof.jpg',
-  iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/628323321&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+  iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/628323321&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
 )
 puts 'Project created and stored...'
 
@@ -22,7 +25,10 @@ Project.create(
   typeof: 'composition',
   description: 'I was commissioned to compose some barbershop music in an advert for the Alzheimer\'s Society in January 2020, and it is currently on national UK television, internet and radio. Produced and owned by Spacecity Ltd, The Ashatones sing \'The Big Win Weekly Lottery\' and act as the barbershop quartet in the advert.',
   image_path: 'ashatones_big_win.jpg',
-  iframe_url: 'https://www.youtube.com/embed/XY1G1jKB_ew'
+  iframe_url: 'https://www.youtube.com/embed/XY1G1jKB_ew',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
 )
 puts 'Project created and stored...'
 
@@ -31,7 +37,10 @@ Project.create(
   typeof: 'composition',
   description: 'In a Tudor world, Liz - young, sassy, supposed virgin and the Queen of England - cannot stand the drawbacks of sitting on the throne as a woman; her overbearing councillors ignore her forward-thinking policies and constantly attempt to marry her off to boring and unappealing suitors. However, when she finally takes decisions into her own hands and rejects King Philip of Spain\'s proposal of marriage, he declares war and assembles the largest fleet in history: The Spanish Armada. With her people furious and invasion imminent, how will Liz regain her people\'s trust and save her country?',
   image_path: 'liz.jpg',
-  iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/642845688&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+  iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/642845688&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
 )
 puts 'Project created and stored...'
 
@@ -40,7 +49,10 @@ Project.create(
   typeof: 'composition',
   description: 'Healthworker Talk is a podcast in which NHS staff from a wide range of services and professions talk to Hope Samuel, a clinical psychologist. They talk about what they do at work and the meaning of their work to them. We hear from people working in all areas of the health service and get an insight into how they fit into the complex organisation of the NHS. Healthworker Talk focuses on the rewards and some of the challenges of the work with a particular focus on the impact of the pandemic.',
   image_path: 'healthworker_talk.jpg',
-  iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1214125966&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true'
+  iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1214125966&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
 )
 puts 'Project created and stored...'
 
@@ -73,7 +85,10 @@ Project.create(
   typeof: 'composition',
   description: 'It\'s Adam\'s 30th birthday and he\'s hosting a dinner party for his closest friends. Being the first to turn thirty in his friendship group, there are a lot of expectations, both for the night and for the next stage of his life. However, the evening becomes more and more chaotic whilst Adam tries to put on a good show. With four secret addictions and a rat on the loose, what could go wrong?!',
   image_path: 'turning_30.jpg',
-  iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/628325064&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+  iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/628325064&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
 )
 puts 'Project created and stored...'
 
@@ -82,7 +97,10 @@ Project.create(
   typeof: 'composition',
   description: 'Written by Michael Hartfield and Zach Margolin, Improv is a sitcom centred around an improv class. The writing duo are currently preparing to shoot the pilot episode for when the lockdown is over. I have been commissioned to compose the theme music.',
   image_path: 'improv.jpg',
-  iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/815543701&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+  iframe_url: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/815543701&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
 )
 puts 'Project created and stored...'
 
@@ -91,7 +109,10 @@ Project.create(
   typeof: 'composition',
   description: 'Since 2018, I have been invited to JFS to run song-writing workshops with some of the best and passionate music students in the school. As a result of their work and collective contribution, their school youth choir \'The JFS Singers\' have performed and recorded three new songs to add to their repertoire.',
   image_path: 'jfs_workshop.jpg',
-  iframe_url: 'https://www.youtube.com/embed/o0GQ7uZ5U0o'
+  iframe_url: 'https://www.youtube.com/embed/o0GQ7uZ5U0o',
+  iframe1_url: '',
+  iframe2_url: '',
+  iframe3_url: ''
 )
 puts 'Project created and stored...'
 
