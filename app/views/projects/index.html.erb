@@ -50,11 +50,24 @@
                 <div class="card-description col-md-4">
                   <p><%= project.description %></p>
                 </div>
-                <div class="card-content d-flex col-md-8">
+                <div class="card-content d-flex flex-wrap col-md-8">
                   <% if project.iframe_url != '' %>
                     <% if project.iframe1_url != '' %>
-                      <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
-                      <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                      <% if project.iframe2_url != '' %>
+                        <% if project.iframe3_url != '' %>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe2_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe3_url %>"></iframe>
+                        <% else %>
+                          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe2_url %>"></iframe>
+                        <% end %>
+                      <% else %>
+                        <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                        <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                      <% end %>
                     <% else %>
                       <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
                     <% end %>
@@ -94,9 +107,27 @@
                 <div class="card-description col-md-4">
                   <p><%= project.description %></p>
                 </div>
-                <div class="card-content col-md-8">
+                <div class="card-content d-flex flex-wrap col-md-8">
                   <% if project.iframe_url != '' %>
-                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                    <% if project.iframe1_url != '' %>
+                      <% if project.iframe2_url != '' %>
+                        <% if project.iframe3_url != '' %>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe2_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe3_url %>"></iframe>
+                        <% else %>
+                          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe2_url %>"></iframe>
+                        <% end %>
+                      <% else %>
+                        <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                        <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                      <% end %>
+                    <% else %>
+                      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                    <% end %>
                   <% end %>
                 </div>
               </div>
@@ -132,9 +163,27 @@
                 <div class="card-description col-md-4">
                   <p><%= project.description %></p>
                 </div>
-                <div class="card-content col-md-8">
+                <div class="card-content d-flex flex-wrap col-md-8">
                   <% if project.iframe_url != '' %>
-                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                    <% if project.iframe1_url != '' %>
+                      <% if project.iframe2_url != '' %>
+                        <% if project.iframe3_url != '' %>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe2_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe3_url %>"></iframe>
+                        <% else %>
+                          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe2_url %>"></iframe>
+                        <% end %>
+                      <% else %>
+                        <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                        <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                      <% end %>
+                    <% else %>
+                      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                    <% end %>
                   <% end %>
                 </div>
               </div>
@@ -170,9 +219,27 @@
                 <div class="card-description col-md-4">
                   <p><%= project.description %></p>
                 </div>
-                <div class="card-content col-md-8">
+                <div class="card-content d-flex flex-wrap col-md-8">
                   <% if project.iframe_url != '' %>
-                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                    <% if project.iframe1_url != '' %>
+                      <% if project.iframe2_url != '' %>
+                        <% if project.iframe3_url != '' %>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe2_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe3_url %>"></iframe>
+                        <% else %>
+                          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                          <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe2_url %>"></iframe>
+                        <% end %>
+                      <% else %>
+                        <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                        <iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe1_url %>"></iframe>
+                      <% end %>
+                    <% else %>
+                      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="<%= project.iframe_url %>"></iframe>
+                    <% end %>
                   <% end %>
                 </div>
               </div>

@@ -76,7 +76,8 @@ Project.create(
   image_path: 'prelude.jpg',
   iframe_url: 'https://www.youtube.com/embed/XWeg3jDC9rI',
   iframe1_url: 'https://www.youtube.com/embed/bGutIomeffc',
-  iframe2_url: 'https://www.youtube.com/embed/CDld3sZbgHQ'
+  iframe2_url: 'https://www.youtube.com/embed/CDld3sZbgHQ',
+  iframe3_url: ''
 )
 puts 'Project created and stored...'
 
