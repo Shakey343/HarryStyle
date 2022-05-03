@@ -17,38 +17,30 @@
   background-size: cover;
   background-position: center;
   cursor: pointer;
+  filter: grayscale(40%);
 }
 
 .hs-cards-1:focus-within .hs-card-1,
-.hs-cards-1:hover .hs-card-1 {
-  transform: translateX(-25%);
-}
-
+.hs-cards-1:hover .hs-card-1,
 .hs-cards-2:focus-within .hs-card-1,
 .hs-cards-2:hover .hs-card-1 {
   transform: translateX(-25%);
 }
 
 .hs-card-1:focus ~ .hs-card-1,
-.hs-card-1:hover ~ .hs-card-1 {
-  transform: translateX(25%);
-}
-
+.hs-card-1:hover ~ .hs-card-1,
 .hs-card-2:focus ~ .hs-card-1,
-.hs-card-2:hover ~ .hs-card-1 {
+.hs-card-2:hover ~ .hs-card-1  {
   transform: translateX(25%);
 }
 
 .hs-cards-1 .hs-card-1:focus,
-.hs-cards-1 .hs-card-1:hover {
-  transform: scale(1.5);
-  z-index: 1;
-}
-
+.hs-cards-1 .hs-card-1:hover,
 .hs-cards-2 .hs-card-1:focus,
 .hs-cards-2 .hs-card-1:hover {
   transform: scale(1.5);
   z-index: 1;
+  filter: grayscale(0%);
 }
 
 .hs-card-1 img {

@@ -34,7 +34,7 @@
     <div class="hs-cards-1">
       <% @projects.each do |project| %>
         <% if project.typeof == 'composition' %>
-          <div class="hs-card-1" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-toggle="collapse" data-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+          <div class="hs-card-1" style="background-image: url(<%= image_url(project.image_path) %>)" data-toggle="collapse" data-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
           </div>
         <% end %>
       <% end %>
@@ -91,7 +91,7 @@
     <div class="hs-cards-2">
       <% @projects.each do |project| %>
         <% if project.typeof == 'arrangment' %>
-          <div class="hs-card-1" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-toggle="collapse" data-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+          <div class="hs-card-1" style="background-image: url(<%= image_url(project.image_path) %>)" data-toggle="collapse" data-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
           </div>
         <% end %>
       <% end %>
@@ -147,7 +147,7 @@
     <div class="hs-cards-2">
       <% @projects.each do |project| %>
         <% if project.typeof == 'md' %>
-          <div class="hs-card-1" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-toggle="collapse" data-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+          <div class="hs-card-1" style="background-image: url(<%= image_url(project.image_path) %>)" data-toggle="collapse" data-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
           </div>
         <% end %>
       <% end %>
@@ -203,7 +203,7 @@
     <div class="hs-cards-2">
       <% @projects.each do |project| %>
         <% if project.typeof == 'performance' %>
-          <div class="hs-card-1" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_url(project.image_path) %>)" data-toggle="collapse" data-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
+          <div class="hs-card-1" style="background-image: url(<%= image_url(project.image_path) %>)" data-toggle="collapse" data-target="#collapseExample-<%= project.id %>" aria-expanded="false" aria-controls="collapseExample">
           </div>
         <% end %>
       <% end %>
