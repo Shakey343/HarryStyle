@@ -1,0 +1,5 @@
+meta_product_name: "Harry Style"
+meta_title: "Harry Style - Composer | Performer | Musical Director | Pianist"
+meta_description: "I am a composer, arranger and musical director. My work has been broadcast on television and radio, and performed on various stages and concert halls around the UK. I have had the pleasure of working with so many inspiring and talented people along the way and I am always learning from experiences."
+meta_image: "harry_headshot.jpg" # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards
