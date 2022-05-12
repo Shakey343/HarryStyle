@@ -1,3 +1,8 @@
+.carousel-img {
+  object-fit: cover;
+  object-position: 0 -100px;
+}
+
 .hs-cards-1 {
   display: flex;
   margin: 40px;
@@ -69,4 +74,5 @@
 
 iframe {
   padding: 5px;
+
 }
